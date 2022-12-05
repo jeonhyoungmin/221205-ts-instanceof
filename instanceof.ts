@@ -27,6 +27,7 @@ console.log(firstInstance instanceof First); // * true
  *  pseudo .5 타입스크립트의 압도적인 정적 명시 방식을 내 애플리케이션에 적용하고자 할 때,
  *  pseudo .6 역으로 '클래스(생성자 함수)'의 적용도에 대해 생각해 볼 사안이다.
  */
+
 console.log(firstInstance.first); // ?
 const { first } = firstInstance;
 // * 구조분해할당 (destructuring assignment)

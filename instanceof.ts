@@ -31,3 +31,4 @@ console.log(firstInstance instanceof First); // * true
 console.log(firstInstance.first); // ?
 const { first } = firstInstance;
 // * 구조분해할당 (destructuring assignment)
+console.log("커밋 체크");
